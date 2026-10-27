@@ -1,0 +1,7 @@
+# Terminal 1 - FastAPI backend
+set PYTHONPATH=%CD%\BACKEND
+python -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
+
+# Terminal 2 - Flask frontend
+cd FRONTEND
+python app.py
